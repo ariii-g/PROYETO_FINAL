@@ -1,0 +1,12 @@
+PROJECT_NAME           = @PROJECT_NAME@
+INPUT                  = @CMAKE_SOURCE_DIR@/src
+RECURSIVE              = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+OUTPUT_DIRECTORY       = @CMAKE_BINARY_DIR@/docs
+
+FILE_PATTERNS          = *.h *.hpp *.cpp
+
+EXCLUDE_PATTERNS       = /build/ /cmake-build-/*
